@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+
+section{
+    margin: 20px;
+    border: 1px solid black;
+}
+
+div{
+    background-color: antiquewhite;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+#section #middle{
+    position: static;
+}
+
+#sticky{
+    
+    height: 400px;
+}
+
+#section #middle{
+    position: sticky;
+    top:100px;
+}

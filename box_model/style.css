@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+div{
+
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+    border: 2px solid salmon;
+} */
+
+
+
+span{
+    /* display: block; */
+    /* display:inline-block; */
+    /* display: none; */
+    visibility: hidden;
+    height: 300px;
+    width: 300px;
+    margin: 50px;
+    padding: 50px;
+    background-color: aquamarine;
+    border: 10px solid maroon;
+}
+
+
+div{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+}
