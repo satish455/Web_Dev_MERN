@@ -1,0 +1,51 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+
+}
+
+.box:hover{
+  animation-name: something;
+  animation-duration: 3s;
+  animation-fill-mode: infinite;
+  animation-timing-function: ease-in;
+  animation-delay: 2s;
+  /* animation-direction: normal; */
+
+  animation-direction: reverse;
+}
+
+
+@keyframes something{
+   
+    /* from{
+        height: 200px;
+
+    }
+    to{
+       height:400px;
+    } */
+
+
+    0%{
+        height: 100px;
+        background-color: azure;
+    }
+    25%{
+        height: 150px;
+        background-color: brown;
+    }
+    50%{
+        height: 200px;
+        background-color: chocolate;
+    }
+    75%{
+        height: 400px;
+        background-color: burlywood;
+    }
+    100%{
+        height: 700px;
+        background-color: blue;
+    }
+}

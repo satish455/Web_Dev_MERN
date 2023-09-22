@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.child{
+    height: 100px;
+    width: 100px;
+    transition-duration: 3s;
+}
+
+
+.parent:hover .child{
+    width: 100vw;
+    
+}
+
+.child-1{
+    background-color: aquamarine;
+    transition-timing-function:cubic-bezier(0.165, 0.84, 0.44, 1);
+    
+}
+
+
+.child-2{
+    background-color: rgb(47, 53, 51);
+    transition-timing-function: ease;
+}
+
+.child-3{
+    background-color: rgb(64, 79, 243);
+    transition-timing-function: ease-in;
+}
+
+.child-4{
+    background-color: rgb(255, 182, 127);
+    transition-timing-function: ease-out;
+}

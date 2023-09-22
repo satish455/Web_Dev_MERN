@@ -1,0 +1,44 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(46, 227, 227);
+    transition-duration: 2s;
+    margin: 50px auto;
+    margin-top: 200px;
+}
+
+
+/* 
+.box{
+    transform: translateX(200px);
+
+    transform: translateY(200px);
+
+
+    transform: translate(200px,200px);
+
+} */
+
+
+.box:hover{
+    /* transform: translate(200px,200px); */
+
+    cursor: pointer;
+
+    /* transform: rotateX(360deg); */
+
+    /* transform: rotateY(180deg); */
+  
+    /* transform: scaleX(5); */
+    
+    /* transform: scaleY(4); */
+
+    /* transform: scale(2,3); */
+
+    /* transform: skewX(55deg); */
+
+    /* transform: skewY(55deg); */
+
+    transform: skew(20deg,20deg);
+
+}
