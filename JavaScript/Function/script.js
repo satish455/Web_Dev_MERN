@@ -1,3 +1,9 @@
+
+// that is also pice of code which is reuse we can call it multiple times
+
+
+
+
 // function sum(){
 //     var a=90;
 //     var b=90;
@@ -68,5 +74,100 @@
 
 
 
+// function sum(){
+//     var num1=10;
+//     var num2=23;
+//     console.log(num1+num2);
+
+// }
+
+// sum();
+// sum();
+// sum();
 
 
+
+// function sum(){
+//     var num1=10;
+//     var num2=23;
+
+//     console.log(num1+num2+num3);
+
+// }
+
+
+// sum();
+
+
+
+// function sum(num3){
+//     var num1=10;
+//     var num2=23;
+
+//     console.log(num1+num2+num3);
+
+// }
+// sum(67);
+
+
+// function sum(n1,n2,n3){
+//   var num1=n1;
+//   var num2=n2;
+
+//   console.log(num1+num2+n3);
+
+// }
+
+// sum(12,12,12);
+
+
+
+// function sum(n1,n2,n3){
+//     var num1=n1;
+//     var num2=n2;
+  
+//     console.log(num1+num2+n3);
+  
+//   }
+  
+//   sum(12,12);
+
+
+//   nan
+
+
+// function sum(n1,n2,n3=10){
+//     var num1=n1;
+//     var num2=n2;
+  
+//     console.log(num1+num2+n3);
+  
+//   }
+  
+//   sum(12,12,12);
+
+
+
+// function sum(n1,n2,n3=10){
+//     var num1=n1;var num2=n2;
+  
+//     console.log(num1+num2+n3);
+  
+//   }
+  
+//   sum(12,12,12);
+
+
+
+
+
+// function sum(){
+    
+//     return 5+4;
+
+  
+//     console.log(num1+num2+n3);
+  
+//   }
+  
+//   sum(12,12,12);
